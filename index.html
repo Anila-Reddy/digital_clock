@@ -86,7 +86,6 @@
             float: left;
             font-size: 80px;
             position: relative;
-            display: contents;
             top: 20px;
             left: 420px;
             margin-left: 20px;
@@ -147,19 +146,19 @@
             padding-top: 40px;
         }
 
-/*         @media only screen and (min-width:300px) and (max-width:600px) {
-            body {
+        @media only screen and (min-width:300px) and (max-width:600px) {
+            /* body {
                 background-size: 100%;
                 display: flex;
   justify-content: center;
   align-items: center;
-            } 
+            } */
             body {
   display: grid;
   place-items: center;
   height: 100vh;
   margin: 0;
-} */
+}
 
 img {
   max-width: 100%;
@@ -167,7 +166,7 @@ img {
 }
         }
     </style>
-    <title>Digital Clock</title>
+    <title>Kalaya Tasmai Namha</title>
     <link rel="Icon" href="">
 </head>
 
@@ -213,7 +212,7 @@ img {
             document.getElementById("d").innerHTML = fullDate;
             var day = date.getDay();
             var fullday = ''
-            switch (day) {
+            switch (6) {
                 case 0: fullday = "Sunday"
                     document.getElementById("bg").style.backgroundImage = "url(sunday.jpg)"
                     break;
